@@ -1,0 +1,52 @@
+1. Navigate to the 'XAMPP' program folder on the university's computers.
+2. Navigate to the 'htdocs' folder within the XAMPP directory. 
+3. Drag & drop the 'BubbleSE425' folder into the 'htdocs' directory.
+4. Open the 'XAMPP Control Panel' program. 
+5. Click 'Start' on the actions tab for the Apache module. 
+6. Open your browser and paste the host URL: http://localhost/BubbleSE425/
+
+
+[HAVING TROUBLE FINDING XAMPP FOLDER?]
+1. Search 'XAMPP Control Panel' on the Windows task bar
+2. Right click 'Open File Location 
+3. right click shortcut 'Open File Location' 
+4. find the 'htdocs' folder within this file location. 
+
+
+[GENERAL TROUBLESHOOTING]
+
+-- Scenario 1 --
+1. Search 'XAMPP Control Panel' on the Windows task bar
+2. Click 'Run as Administrator'.
+
+-- Scenario 2 --
+1. In the 'XAMPP Control Panel' click 'Config' for the Apache module.
+2. Click on 'Apache httpd.conf'
+3. Change all ports from the current designated one to another. [Likely on 80, try 40].
+
+-- Scenario 3 --
+1. Contact the NEIT Help Desk or Professor Doug Rose for MySQL security.
+2. NEIT infrastructure/security of network is out of student control, and sometimes blocks student's projects.
+
+
+[For Final Fantasy XIV Bubble]
+
+Admin [Naoki Yoshida]
+-------------------
+User: teamXIV
+PW: teamXIV
+
+
+Employees
+-------------------
+User: teamXIV1
+PW: teamXIV1
+
+User: teamXIV2
+PW: teamXIV2
+
+User: teamXIV3
+PW: teamXIV3
+
+User: teamXIV4
+PW: teamXIV4
