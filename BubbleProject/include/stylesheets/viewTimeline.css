@@ -1,0 +1,66 @@
+.timeline {
+   display: flex;
+   flex-wrap: nowrap;
+   overflow-x: auto;
+   padding: 20px;
+
+}
+
+.tlItems {
+   display: inline-block;
+   min-width: 200px;
+   margin-right: 20px;
+   position: relative;
+   text-align: center;
+   flex-shrink: 0;
+}
+
+.tlItems .tlDate {
+   font-weight: bold;
+   margin-bottom: 10px;
+   display: block;
+}
+
+.tlContent {
+   background-color: #fff;
+   padding: 10px;
+   border: 1px solid #e0e0e0;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   position: relative;
+   z-index: 1;
+}
+
+.tlContent .tlTitle {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.tlGroupName {
+   font-size: 14px;
+   padding: 5px;
+   border-radius: 3px;
+   color: white;
+}
+
+.tlItems {
+   position: relative;
+   overflow: hidden; /* Hide scrollbars */
+}
+
+.tlItems::after {
+   margin-top: 25px;
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 0.1px;
+   height: 100%;
+   background-color: #4f539f81;
+   z-index: 0 !important;
+}
+
+.tlItems:last-child::before {
+   display: none;
+}

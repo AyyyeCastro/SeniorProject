@@ -1,0 +1,65 @@
+body,
+html {
+  height: 100%;
+}
+.container {
+  min-width: 75%;
+  padding: 15px;
+}
+.container-fluid {
+  background-color: white;
+  padding: 35px;
+}
+.fullVH {
+  height: 100%;
+  width: 100%;
+}
+input[type="file"] {
+  display: none;
+}
+.customFiles {
+  cursor: pointer;
+  border: 1px solid #4F539F;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 6px 12px;
+  color: #4F539F;
+  text-align: center;
+}
+.customBtn {
+  border: 1px solid #686a81;
+  border-radius: 15px;
+  padding: 6px 12px;
+  color: white;
+  text-align: center;
+  background-color: #757790;
+}
+.customerOtherBtn{
+  margin-left: 5px;
+  border: 1px solid #4F539F;
+  border-radius: 15px;
+  padding: 6px 12px;
+  color: white;
+  text-align: center;
+  background-color: gray;
+}
+.warningBtn{
+  margin-left: 5px;
+  border: 2px solid #ff6872;
+  border-radius: 15px;
+  padding: 6px 12px;
+  color: white;
+  text-align: center;
+  background-color: #ff6872;
+}
+.rowBtnPost {
+  margin-top: 15px;
+  float: right;
+}
+.customLink{
+  color: #4F539F;
+}
+.remove-btn {
+  display: none;
+  color: red;
+}

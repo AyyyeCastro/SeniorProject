@@ -1,0 +1,162 @@
+.profileContainer {
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid rgba(186, 186, 186, 0.4);
+  /* first 3 are the color, last is the opacity */
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  border-radius: 15px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 5px 10px 10px #e5e5e5;
+}
+
+.productContainer {
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 5px 10px 10px #e5e5e5;
+  padding: 15px;
+
+}
+
+.ProfilePics {
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+  width: 200px;
+  height: 200px;
+  border: solid 2px #4F539F;
+}
+
+.newUserPP {
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  margin-top: 1px;
+  border: solid 2px #4F539F;
+  /* Center the image within the element */
+  width: 97%;
+  height: 97%;
+}
+
+.img-overlay {
+  position: absolute;
+  margin-left: 15px;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  pointer-events: all;
+}
+
+.img-overlay:hover {
+  opacity: 20%;
+  background-color: #f8f8f8;
+}
+
+.btnUpdatePP {
+  display: inline-block;
+  position: absolute;
+  top: 140px;
+  left: 170px;
+  pointer-events: all;
+  border: 1px solid #5d5d5d;
+  border-radius: 15px;
+  padding: 6px 12px;
+  color: white;
+  background-color: #4F539F;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.profDetails {
+  word-spacing: 7px;
+}
+
+.listProdTitle {
+  font-size: 18px;
+  max-width: 250px;
+  /* limit title width to the same width of the of the image */
+}
+
+.listProdCat {
+  max-width: 250px;
+}
+
+.listProdPrice {
+  padding-top: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 250px;
+}
+
+.listCond {
+  color: #506d90;
+  font-size: 13px;
+  max-width: 250px;
+}
+
+.listID {
+  color: #506d90;
+  font-size: 13px;
+  max-width: 250px;
+}
+
+.listState {
+  font-size: 13px;
+  max-width: 250px;
+}
+
+.showEdit{
+  display: none;
+}
+.showEditListing{
+  display: none;
+}
+.showDeleteListing{
+  display: none;
+}
+
+.content {
+  max-width: 400px;
+  min-height: 00px;
+  border: 1px #f5f5f5 solid;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: -30px;
+  padding: 35px;
+}
+
+.content:hover .showEditListing{
+  display: inline-block;
+  position: absolute;
+  margin-left: 15px;
+}
+.content:hover .showDeleteListing{
+  display: inline-block;
+  position: absolute;
+  margin-left: 60px;
+}
+
+
+.userRating:hover .hideCount {
+  display: inline-block;
+}
+
+.userBio {
+  margin-top: 15px;
+}
+
+/* eggshell #F0EAD6 */

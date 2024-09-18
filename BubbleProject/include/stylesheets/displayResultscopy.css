@@ -1,0 +1,93 @@
+.customBtn{
+  margin-left: 5px;
+}
+.customBtn:hover, .customerOtherBtn:hover{
+  color: white;
+  background-color: #4F539F;
+  border: 2px solid gray;
+}
+.pageCountCountainer{
+  border: 2px solid #F1F1F1;
+  background-color: #F8F8F8;
+  padding: 15px;
+  border-radius: 15px;
+}
+.filterContainer{
+  border: 2px solid #F1F1F1;
+  background-color: #F8F8F8;
+  padding: 15px;
+  border-radius: 15px;
+  
+}
+.timeLineContainer{
+  padding: 25px;
+}
+.fullVH{
+  border: 1px solid #e5e5e5;
+  box-shadow: 5px 10px 10px #e5e5e5;
+  padding: 35px;
+}
+.resultFor{
+  margin-top: 15px;
+}
+.filterBtns{
+  padding: 15px;
+}
+.ProfilePics {
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+.content  {
+  min-width: 150px;
+  min-height: 200px;
+  border: 1px #f5f5f5 solid;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.displayMsg{
+  margin-left: 15px;
+}
+.preview-container{
+  width: 700px;
+  height: 700px;
+  background-color: red;
+}
+.rowGroupNames{
+  text-align: center;
+}
+
+.listProdTitle {
+  font-size: 18px;
+  max-width: 250px;
+  /* limit title width to the same width of the of the image */
+}
+
+.listProdCat {
+  max-width: 250px;
+}
+
+.listProdPrice {
+  padding-top: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  max-width: 250px;
+}
+
+.listCond {
+  color: #506d90;
+  font-size: 13px;
+  max-width: 250px;
+}
+
+.listState {
+  font-size: 13px;
+  max-width: 250px;
+}
+.content:hover {
+  background-color: #f8f8f8;
+}

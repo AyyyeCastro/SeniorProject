@@ -1,0 +1,231 @@
+.profileContainer {
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid rgba(186, 186, 186, 0.4);
+  /* first 3 are the color, last is the opacity */
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  border-radius: 15px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 5px 10px 10px #e5e5e5;
+}
+
+.productContainer {
+  margin-top: 15px;
+  border-radius: 15px;
+
+}
+
+.firstCustomBtn{
+  margin-left: 20px;
+}
+.customBtn{
+  color: #e5e5e5;
+}
+.customBtn:hover{
+  color: #FFFF;
+}
+
+
+.ProfilePics {
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+  width: 200px;
+  height: 200px;
+  border: solid 2px #4F539F;
+}
+
+.newUserPP {
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  margin-top: 1px;
+  border: solid 2px #4F539F;
+  /* Center the image within the element */
+  width: 97%;
+  height: 97%;
+}
+
+.img-overlay {
+  position: absolute;
+  margin-left: 15px;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  pointer-events: all;
+}
+
+.img-overlay:hover {
+  opacity: 20%;
+  background-color: #f8f8f8;
+}
+
+.btnUpdatePP {
+  display: inline-block;
+  position: absolute;
+  top: 140px;
+  left: 170px;
+  pointer-events: all;
+  border: 1px solid #5d5d5d;
+  border-radius: 15px;
+  padding: 6px 12px;
+  color: white;
+  background-color: #4F539F;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.profDetails {
+  word-spacing: 7px;
+}
+
+.listProdTitle {
+  margin-top: 5px;
+  font-size: 18px;
+  max-width: 250px;
+  /* limit title width to the same width of the of the image */
+  color: #4F539F;
+}
+
+.listProdCat {
+  max-width: 250px;
+}
+
+.listProdPrice {
+  color: #4F539F;
+  padding-top: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  max-width: 250px;
+}
+
+.listCond {
+  color: #506d90;
+  font-size: 13px;
+  max-width: 250px;
+}
+
+.listID {
+  color: #506d90;
+  font-size: 13px;
+  max-width: 250px;
+}
+
+.listState {
+  font-size: 13px;
+  max-width: 250px;
+}
+
+.showEdit{
+  display: none;
+}
+.showEditListing{
+  display: none;
+}
+.showDeleteListing{
+  display: none;
+}
+
+.showCompleteListing{
+  display: none;
+}
+
+.stillToDoDiv{
+  background-color: #4F539F;
+  padding: 25px;
+  border-radius: 12px;
+  color: #E2DFD2;
+  font-size: 18px;
+  font-weight: 800px !important;
+  text-align: center;
+}
+
+.content {
+  max-width: 400px;
+  min-height: 00px;
+  border: 2px #f5f5f5 solid;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: -30px;
+  padding: 55px;
+  border-radius: 5px;
+}
+.rowGroupName{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.content:hover .showEditListing{
+  display: inline-block;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -50px;
+}
+.content:hover .showDeleteListing{
+  display: inline-block;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: -50px;
+}
+
+.content:hover .showCompleteListing{
+  display: inline-block;
+  position: absolute;
+  margin-left: 105px;
+  margin-top: -50px;
+}
+
+
+.userRating {
+  margin-top: 5px;
+}
+
+.bubbleCodeText{
+  background-color: #4F539F;
+  max-width: 200px;
+  padding: 15px;
+  border-radius: 12px;
+  color: #E2DFD2;
+}
+.copy-button {
+  margin-left: 10px;
+  color: #E2DFD2;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+}
+.copy-button:hover {
+  color: #FFFF;
+  text-decoration: none;
+}
+
+.userRating:hover .hideCount {
+  display: inline-block;
+}
+
+.userBio {
+  margin-top: 15px;
+}
+
+
+.timeLineView {
+  display: none; /* Initially hide timeline view */
+}
+
+.rowContainer {
+  display: flex; /* Ensure standard view is visible by default */
+}
